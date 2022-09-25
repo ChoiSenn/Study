@@ -32,10 +32,8 @@
  
  Convolutional Network : 주로 CNN이라 불리는 합성곱 신경망. 
  
- Receptive Field : 
+ Receptive Field : 수용영역, 수용장. 각 단계의 입력 이미지에 대해 하나의 필터가 커버할 수 있는 이미지 영역의 일부를 뜻함.
  
- bounding box : 
+ stride : 보폭. 필터를 적용하는 간격. 패딩을 크게 하면 출력 데이터의 크기가 커지고, 스트라이드를 크게 하면 출력 데이터의 크기가 작아짐.
  
- stride : 
- 
- localization : 
+ localization : 객체라고 판단되는 부분에 Bounding Box를 그리는 것.
